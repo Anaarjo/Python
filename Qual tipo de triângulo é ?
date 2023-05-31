@@ -1,0 +1,12 @@
+print("What type of triangle is it?")
+
+side1=  input("Type the first side: ")
+side2=  input("Type the second side: ")
+side3=  input("Type the third side: ")
+
+if side1 == side2 == side3:
+  print("It is a equilateral triangle!")
+elif side1 == side2 or side2== side3 or side1 == side3:
+  print("It is a isoscele triangle!")
+else:
+  print("It is a Scalene triangle!")
