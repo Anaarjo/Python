@@ -1,0 +1,9 @@
+#Exercise from Solo learn, how to create a reading files
+file = open("/usercode/files/pull_ups.txt")
+n = int(input())
+
+output = file.readlines()[n]
+output = output.replace("\n", "")
+print(output)
+
+file.close()
